@@ -2,6 +2,6 @@
 
 below pages demonstrate how to view multiple pngs inplace with mouse interactions using javascript.
 
-* [scroll to view images](..blob/master/demo/scrollgie.html)
+* [scroll to view images](demo/scrollgie.html)
 
-* [click and drag to view image](..blob/master/demo/clicky.html)
+* [click and drag to view image](demo/clicky.html)
