@@ -74,7 +74,20 @@ $(function() {
         lbDown = false,
         Y = 0,
         clickedY = 0;
-    
+	
+    $imgs.on("touchend touchstart",function(e) {
+        if (e.which === 1) {
+            clickedY = e.clientY;
+            e.preventDefault();
+            lbDown = e.type=="touchend";
+        }
+    }).on("touchmove", function(e) {
+        if(lbDown) {           
+            e.preventDefault();          
+            $img.hide().eq((((e.clientY-clickedY)*0.3)|0)%n).show();
+        }
+    });
+	
     $imgs.on("mousedown mouseup",function(e) {
         if (e.which === 1) {
             clickedY = e.clientY;
