@@ -1,6 +1,6 @@
 ### imgscroll
 
-below pages demonstrate how to view multiple pngs inplace with mouse or finger interactions using javascript.
+below pages demonstrate how to scroll through images inplace with mouse or finger interactions using javascript.
 
 * [scroll to view images (desktop friendly)](https://pangyuteng.github.io/imgscroll/demo/scrollgie.html)
 
